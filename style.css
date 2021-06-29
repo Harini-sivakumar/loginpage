@@ -1,0 +1,240 @@
+.container{
+    
+    
+    border-color: black;
+       width: 900px;
+       height: 320px; 
+       margin-top: 50px;
+       margin-left: 300px;
+       
+}
+
+#nova{
+
+ background-image:url("login/nova.png");
+ 
+    height:90px;
+    right:15px; /* play around with this */
+    position:absolute;
+    top:40px; /* and play around with this */
+    width:265px;
+    
+}
+
+#bg {
+    background-image:url("login/bg.png");
+    height:320px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; /* and this has to be relative */
+    width:900px;
+} 
+
+.l1{
+    font-size: 25px;
+    font-family: muli_semibold;
+    font-style: normal;
+    color: #292929;
+    margin-left: 36px;
+    margin-top: 77px;
+
+
+}
+
+.l2{
+    font-size: 18px;
+    font-family: muli;
+    font-style: normal;
+    color: #292929;
+    margin-left: 36px;
+    margin-top: 40px;
+    margin-right: 380px;
+    margin-bottom: 10px;
+}
+
+
+.l3{
+    font-size: 18px;
+    font-family: muli;
+    font-style: normal;
+    color: #292929;
+   
+    margin-top: 50px;
+    display:flex;
+   align-items: center;
+   justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+
+
+.l4{
+    font-size: 18px;
+    font-family: muli;
+    font-style: normal;
+    color: #292929;
+    margin-left: 36px;
+    margin-top: 77px;
+    margin-right: 380px;
+    margin-bottom: 10px;
+}
+
+.l5{
+    font-size: 18px;
+    font-family: muli;
+    font-style: normal;
+    color: #292929;
+  margin-top: 2px;
+  font-weight: bolder;
+
+   
+    margin-bottom: 10px;
+
+}
+
+.mobile{
+   font-size: 16px;
+   font-family: muli;
+   
+   margin-top: 30px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.tabs1{
+    font-size: 16px;
+   font-family: muli;
+   color: rgb(255, 255, 255);
+   margin-top: 30px;
+   margin-left:50px;
+   padding-top: 20px;
+}
+.tabs{
+    font-size: 16px;
+   font-family: muli;
+   color: rgb(255, 255, 255);
+  
+   margin-left:50px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   
+}
+
+.b1{
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+    width: 500px;
+    color:#2E6BB1;
+    font-weight: bold;
+    word-spacing: 10px;
+    display:flex;
+   align-items: center;
+   word-wrap:break-word;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+    
+}
+
+.apps{
+    display: block;
+}
+
+.row {
+   
+    display: flex;
+  }
+  .column {
+    
+    padding: 5px;
+    flex: 33.33%;
+    margin-left: 250px;
+ 
+  }
+  .column1 {
+    padding: 5px;
+    flex: 33.33%;
+    margin-top: 10px;
+    margin-left: -150px;
+  }
+
+
+
+
+
+.body{
+    margin: 0;
+    padding: 0;
+   
+    
+    
+    color: rgb(22, 23, 24);
+  
+
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(7, 7, 7);
+    text-align: center;
+}
+
+.box h1{
+    color: royalblue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.box input[type="text"], .box input[type="email"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(37, 124, 182);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color:whitesmoke;
+    border-radius: 24px;
+    transition: 0.25px;
+
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus,.box input[type="password"]:focus{
+    width: 100%;
+    border-color: brown;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(113, 129, 120);
+    padding: 14px 40px;
+    
+    outline: none;
+    color:whitesmoke;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: antiquewhite;
+}
+
+
